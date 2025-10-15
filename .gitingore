@@ -1,0 +1,75 @@
+# === PYTHON OGÓLNIE ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# === ŚRODOWISKA ===
+venv/
+.env/
+.env*/
+*.env
+
+# === DANE I MODELE ===
+data/
+datasets/
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# === NOTEBOOKI I ICH PLIKI POMOCNICZE ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === LOGI I WYNIKI ===
+logs/
+*.log
+*.out
+*.err
+*.csv
+*.tsv
+*.tmp
+*.cache/
+*.npy
+*.npz
+
+# === KONFIGI SYSTEMOWE / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OUTPUTY Z TRENOWANIA / TESTOW ===
+runs/
+outputs/
+results/
+wandb/
+tensorboard/
+events.out.tfevents*
+
+# === BACKUPY / PLIKI TYMCZASOWE ===
+*.bak
+*.backup
+*.old
+*.tmp
+*.zip
+*.tar
+*.tar.gz
+
+# === TESTY I GENEROWANE ARTEFAKTY ===
+__test__/
+__tests__/
+*.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
